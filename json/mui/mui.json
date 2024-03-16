@@ -1,0 +1,18 @@
+{
+  "name": "mui",
+  "version": "5.15.13",
+  "components": [
+    {
+      "name": "example_component",
+      "errors": [
+        {
+          "error_type": "TypeError",
+          "fix": "This is how to fix it"
+        },
+        {
+          "error_type": "ValueError"
+        }
+      ]
+    }
+  ]
+}
