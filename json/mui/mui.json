@@ -1,18 +1,45 @@
 {
-  "name": "mui",
+  "name": "MUI - React Material UI components",
   "version": "5.15.13",
   "components": [
     {
-      "name": "example_component",
-      "errors": [
-        {
-          "error_type": "TypeError",
-          "fix": "This is how to fix it"
-        },
-        {
-          "error_type": "ValueError"
-        }
-      ]
+      "name": "Dialog",
+      "lighthouse": {
+        "lighthouse_score": "85",
+        "errors": [
+          {
+            "error_type": "TypeError",
+            "description": "",
+            "fix": "This is how to fix it",
+            "wcag": {
+              "version": "version",
+              "success_criteria": "success criteria"
+            }
+          },
+          {
+            "error_type": "ValueError"
+          }
+        ]
+      },
+      "manual_testing": {
+        "errors": [
+          {
+            "error_type": "TypeError",
+            "description": "",
+            "fix": "This is how to fix it",
+            "wcag": {
+              "version": "version",
+              "success_criteria": "success criteria"
+            }
+          },
+          {
+            "error_type": "ValueError"
+          }
+        ]
+      },
+      "lighthouse_score": "85",
+      "preview_link": "https://mui.com/material-ui/react-dialog/"
     }
   ]
 }
+
