@@ -1,0 +1,128 @@
+{
+    "name": "Bootstrap",
+    "version": "5.3.x",
+    "components": [
+      {
+        "name": "Modal",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/components/modal/#modal-components"
+      },
+      {
+        "name": "Dropdown",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/components/dropdowns/#single-button"
+      },
+      {
+        "name": "Carousel",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": [
+            {
+              "error_type": "2.4.7 Focus Visible",
+              "description": "Left and right buttons are not highlighted when focused.",
+              "fix": "Provide alternative.",
+              "wcag": {
+                "version": "2.2",
+                "success_criteria": "https://www.w3.org/TR/WCAG22/#focus-visible"
+              }
+            }
+          ]
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/components/carousel/#basic-examples"
+      },
+      {
+        "name": "Accordion",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/components/accordion/#example"
+      },
+      {
+        "name": "Input",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/forms/form-control/#example"
+      },
+      {
+        "name": "Switches",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/forms/checks-radios/#switches"
+      },
+      {
+        "name": "Table",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/content/tables/#overview"
+      },
+      {
+        "name": "Tooltip",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/components/tooltips/#custom-tooltips"
+      },
+      {
+        "name": "Alert",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/components/alerts/#live-example"
+      },
+      {
+        "name": "Form",
+        "lighthouse": {
+          "lighthouse_score": "100",
+          "errors": []
+        },
+        "manual_testing": {
+          "errors": []
+        },
+        "preview_link": "https://getbootstrap.com/docs/5.3/forms/input-group/#basic-example"
+      }
+    ]
+  }
+  
+  
