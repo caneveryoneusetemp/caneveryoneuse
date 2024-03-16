@@ -1,1 +1,36 @@
-
+{
+  "name": "jqueryui",
+  "version": "1.13.2",
+  "components": [
+    {
+      "name": "Dialog ",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "manual_testing": {
+        "errors": [
+          {
+            "error_type": "2.5.7 Dragging Movements",
+            "description": "Dialog can only resize with mouse.",
+            "fix": "Provide alternative.",
+            "wcag": {
+              "version": "2.2",
+              "success_criteria": "https://www.w3.org/TR/WCAG22/#dragging-movements"
+            }
+          },
+          {
+            "error_type": "2.1.1 Keyboard",
+            "description": "<ol><li>Resize dialog via drag and drop</li><li>Zoom into Browser</li><li>Text gets cut and is not reachable via keyboard</li></ol>",
+            "fix": "_",
+            "wcag": {
+              "version": "2.2",
+              "success_criteria": "https://www.w3.org/TR/WCAG22/#keyboard"
+            }
+          }
+        ]
+      },
+      "preview_link": "https://jqueryui.com/resources/demos/dialog/default.html"
+    }
+  ]
+}
