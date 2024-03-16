@@ -17,6 +17,135 @@
         "errors": []
       },
       "preview_link": "https://ant.design/components/modal"
+    },
+    {
+      "name": "Collapse",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/collapse"
+    },
+    {
+      "name": "Carousel",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/carousel"
+    },
+    {
+      "name": "Slider",
+      "lighthouse": {
+        "lighthouse_score": "86",
+        "errors": [
+            {
+              "error_type": "2.5.4 Buttons do not have an accessible name",
+              "description": "Buttons do not have an accessible name",
+              "fix": "Provide an accessible name for buttons",
+              "wcag": {
+                "version": "2.1",
+                "success_criteria": "https://www.w3.org/TR/WCAG21/#accessible-name-and-description"
+              }
+            },
+            {
+              "error_type": "2.5.5 ARIA input fields do not have accessible names",
+              "description": "ARIA input fields do not have accessible names",
+              "fix": "Provide an accessible name for ARIA input fields",
+              "wcag": {
+                "version": "2.1",
+                "success_criteria": "https://www.w3.org/TR/WCAG21/#input-purpose"
+              }
+            }
+        ]
+      },
+      "preview_link": "https://ant.design/components/slider"
+    },
+    {
+      "name": "Input",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/input"
+    },
+    {
+      "name": "Switch",
+      "lighthouse": {
+        "lighthouse_score": "-",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/switch"
+    },
+    {
+      "name": "Table",
+      "lighthouse": {
+        "lighthouse_score": "95",
+        "errors": [
+          {
+            "error_type": "",
+            "description": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "fix": "",
+            "wcag": {
+              "version": "",
+              "success_criteria": ""
+            }
+          }
+        ]
+      },
+      "preview_link": "https://ant.design/components/table"
+    },
+    {
+      "name": "Tooltip",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/tooltip"
+    },
+    {
+      "name": "Alert",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/alert"
+    },
+    {
+      "name": "AutoComplete",
+      "lighthouse": {
+        "lighthouse_score": "94",
+        "errors": [
+          {
+            "error_type": "",
+            "description": "Form elements do not have associated labels",
+            "fix": "",
+            "wcag": {
+              "version": "",
+              "success_criteria": ""
+            }
+          }
+        ]
+      },
+      "preview_link": "https://ant.design/components/auto-complete"
+    },
+    {
+      "name": "Form",
+      "lighthouse": {
+        "lighthouse_score": "95",
+        "errors": [
+          {
+            "error_type": "",
+            "description": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "fix": "",
+            "wcag": {
+              "version": "",
+              "success_criteria": ""
+            }
+          }
+        ]
+      },
+      "preview_link": "https://ant.design/components/form"
     }
   ]
 }
