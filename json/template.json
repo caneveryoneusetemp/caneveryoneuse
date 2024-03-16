@@ -4,21 +4,41 @@
   "components": [
     {
       "name": "example_component",
-      "lighthouse_score": "85",
-      "preview_link": "https://mui.com/material-ui/react-dialog/",
-      "errors": [
-        {
-          "error_type": "TypeError",
-          "fix": "This is how to fix it",
-          "wcag": {
-            "version":"version",
-            "success_criteria":"success criteria"
+      "lighthouse": {
+        "lighthouse_score": "85",
+        "errors": [
+          {
+            "error_type": "TypeError",
+            "description": "",
+            "fix": "This is how to fix it",
+            "wcag": {
+              "version": "version",
+              "success_criteria": "success criteria"
+            }
+          },
+          {
+            "error_type": "ValueError"
           }
-        },
-        {
-          "error_type": "ValueError"
-        }
-      ]
+        ]
+      },
+      "manual_testing": {
+        "errors": [
+          {
+            "error_type": "TypeError",
+            "description": "",
+            "fix": "This is how to fix it",
+            "wcag": {
+              "version": "version",
+              "success_criteria": "success criteria"
+            }
+          },
+          {
+            "error_type": "ValueError"
+          }
+        ]
+      },
+      "lighthouse_score": "85",
+      "preview_link": "https://mui.com/material-ui/react-dialog/"
     }
   ]
 }
