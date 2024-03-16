@@ -1,0 +1,19 @@
+{
+  "name": "Name of framework",
+  "version": "1.0.0",
+  "components": [
+    {
+      "name": "example_component",
+      "lighthouse_score": "85",
+      "errors": [
+        {
+          "error_type": "TypeError",
+          "fix": "This is how to fix it"
+        },
+        {
+          "error_type": "ValueError"
+        }
+      ]
+    }
+  ]
+}
