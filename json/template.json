@@ -8,7 +8,11 @@
       "errors": [
         {
           "error_type": "TypeError",
-          "fix": "This is how to fix it"
+          "fix": "This is how to fix it",
+          "wcag": {
+            "version":"version"
+            "success_criteria":"success criteria"
+          }
         },
         {
           "error_type": "ValueError"
