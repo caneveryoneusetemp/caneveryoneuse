@@ -31,6 +31,53 @@
         ]
       },
       "preview_link": "https://jqueryui.com/resources/demos/dialog/default.html"
+    },
+    {
+      "name": "Selectmenu",
+      "lighthouse": {
+        "lighthouse_score": "94",
+        "errors": [
+          {
+            "error_type": "ARIA input fields do not have accessible names",
+            "description": "Success Criterion 4.1.2 Name, Role, Value",
+            "fix": "Set names",
+            "wcag": {
+              "version": "4.1.4",
+              "success_criteria": "https://www.w3.org/TR/WCAG22/#name-role-value"
+            }
+          }
+        ]
+      },
+      "preview_link": "https://jqueryui.com/resources/demos/selectmenu/default.html"
+    },
+    {
+      "name": "Accordion ",
+      "lighthouse": {
+        "lighthouse_score": "87",
+        "errors": [
+          {
+            "error_type": "Elements with an ARIA [role] that require children to contain a specific [role] are missing some or all of those required children.",
+            "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. <a href=\"https://dequeuniversity.com/rules/axe/4.8/aria-required-children\">Learn more about roles and required children elements</a>."
+          },
+          {
+            "error_type": "Background and foreground colors do not have a sufficient contrast ratio.",
+            "description": "Low-contrast text is difficult or impossible for many users to read. <a href=\"https://web.dev/articles/how-to-review?utm_source=lighthouse&utm_medium=devtools&hl=de\">Learn how to provide sufficient color contrast</a>."
+          }
+        ]
+      },
+      "preview_link": "https://jqueryui.com/resources/demos/accordion/default.html"
+    },
+    {
+      "name": "Slider ",
+      "lighthouse": {
+        "lighthouse_score": "N/A",
+        "errors": [
+          {
+            "error_type": "Lighthouse test doesn't complete"
+          }
+        ]
+      },
+      "preview_link": "https://jqueryui.com/resources/demos/slider/default.html"
     }
   ]
 }
