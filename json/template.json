@@ -5,12 +5,13 @@
     {
       "name": "example_component",
       "lighthouse_score": "85",
+      "preview_link": "https://mui.com/material-ui/react-dialog/",
       "errors": [
         {
           "error_type": "TypeError",
           "fix": "This is how to fix it",
           "wcag": {
-            "version":"version"
+            "version":"version",
             "success_criteria":"success criteria"
           }
         },
