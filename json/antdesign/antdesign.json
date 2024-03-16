@@ -1,0 +1,22 @@
+{
+  "name": "antd",
+  "version": "5.15.3",
+  "components": [
+    {
+      "name": "Dropdown",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/dropdown"
+    },
+    {
+      "name": "Modal",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/modal"
+    }
+  ]
+}
