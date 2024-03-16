@@ -9,6 +9,14 @@
         "errors": []
       },
       "preview_link": "https://ant.design/components/dropdown"
+    },
+    {
+      "name": "Modal",
+      "lighthouse": {
+        "lighthouse_score": "100",
+        "errors": []
+      },
+      "preview_link": "https://ant.design/components/modal"
     }
   ]
 }
